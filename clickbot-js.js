@@ -13,9 +13,6 @@ while(true) {
 
 let mousePos = robot.getMousePos();
 
-console.log(new Date().getSeconds());
-console.log(secconds+5 == new Date().getSeconds());
-
 if(mousePos.x == 0 && mousePos.y == 0){
   break;
 }
